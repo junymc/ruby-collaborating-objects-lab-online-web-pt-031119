@@ -13,6 +13,7 @@ class Song
      song = self.new(song_name)
      artist = Artist.creat(artist_name)
      song.artist = artist
+     artist.add_song(song)
      song
    end
 

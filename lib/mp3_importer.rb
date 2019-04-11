@@ -7,6 +7,7 @@ class MP3Importer
   end
 
   def files
+    # on;y wants the .mp3 files
     @files = Dir.glob("#{@path}*.mp3")
   end
 
